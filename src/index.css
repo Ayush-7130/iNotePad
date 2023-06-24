@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  /* --color1: #1d160b; */
+  --color1: #151a25;
+  --color2: #192e51;
+  --color3: #3d5fa8;
+  --color4: #75a1fd;
+  --color5: #c0eff9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  top: 0;
+}
+
+body {
+  background-color: var(--color2);
+  color: var(--color5);
+}
+
+.nav-clr {
+  background-color: var(--color1) !important;
+}
+
+.nav-txt-col {
+  color: var(--color5);
+}
+
+.text-sel {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.space-t {
+  margin-top: 3rem !important;
+}
+
+.pad-l {
+  padding-left: 0.7rem !important;
+}
+
+.alert-fixed {
+  position: fixed;
+  top: 3.3rem;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  padding: 0.7rem 0.4rem;
+}
+
+.edit-back {
+  background-color: var(--color2);
+}
